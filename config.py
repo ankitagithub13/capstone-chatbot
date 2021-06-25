@@ -70,5 +70,5 @@ class pre_processor:
         if stem_the_words_flag == 1:
             df =df.apply(self.stem_the_words)
             
-        
+        return df
 
